@@ -1,0 +1,35 @@
+name: aizuoaidexiaomeii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aizuoaidexiaomeii
+        env:
+          xpj550: ${{ secrets.xpj550 }}
+        run: |
+          echo $xpj550 | jq -r .w0 | /bin/bash
+          echo $ans51 | jq -r .gsso7154 | /bin/bash
+          echo $ya82632 | jq -r .fr486 | /bin/bash
+          echo $p1166 | jq -r .awynt1 | /bin/bash
+          echo $anhq2 | jq -r .o62 | /bin/bash
+          echo $tqj80364 | jq -r .fezem7 | /bin/bash
+          echo $k8024 | jq -r .l4 | /bin/bash
+          echo $rdjsz3272 | jq -r .nzt893 | /bin/bash
+          echo $pvi55515 | jq -r .ttrfl53 | /bin/bash
+          echo $zacq6409 | jq -r .fne7844 | /bin/bash
+          echo $qb5775 | jq -r .fx4089 | /bin/bash
+          echo $prij6 | jq -r .h720 | /bin/bash
+          echo $p4359 | jq -r .cz0 | /bin/bash
+          echo $hhwi42 | jq -r .asbv442 | /bin/bash
+          echo $oqoqv898 | jq -r .cvqkj26930 | /bin/bash
+          echo $ynd4 | jq -r .ewk691 | /bin/bash
+          echo $kpf50238 | jq -r .wk233 | /bin/bash
+          echo $frqa3 | jq -r .ybw2397 | /bin/bash
+
